@@ -8,12 +8,14 @@
 
     <EditText
         android:id="@+id/etNombre"
+        android:hint="Nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:maxLines="1" />
 
     <EditText
+        android:hint="Apellido"
         android:id="@+id/etApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +24,7 @@
 
     <EditText
         android:id="@+id/etDocumento"
+        android:hint="DNI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -29,6 +32,7 @@
 
     <EditText
         android:id="@+id/etEdad"
+        android:hint="Edad"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
